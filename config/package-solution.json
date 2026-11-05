@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "vbu-profile-react-chat-agent-client-side-solution",
+    "id": "89194cf8-7993-444a-9cd8-c154c906e6e5",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Volaris People Directory API",
+        "scope": "user_impersonation"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "VBUProfileReactChatAgent description"
+      },
+      "longDescription": {
+        "default": "VBUProfileReactChatAgent description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "vbu-profile-react-chat-agent Feature",
+        "description": "The feature that activates elements of the vbu-profile-react-chat-agent solution.",
+        "id": "b4d03978-f76b-44cf-b285-ec7d890bbc35",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/vbu-profile-react-chat-agent.sppkg"
+  }
+}

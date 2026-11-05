@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vbu-profile-ract-chat-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vbuProfileRactChatWebpart/VbuProfileRactChatWebpartWebPart.js",
+          "manifest": "./src/webparts/vbuProfileRactChatWebpart/VbuProfileRactChatWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VbuProfileRactChatWebpartWebPartStrings": "lib/webparts/vbuProfileRactChatWebpart/loc/{locale}.js"
+  }
+}
